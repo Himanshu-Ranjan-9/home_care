@@ -2153,11 +2153,14 @@ img {
   @media (max-width: 1200px) {
    .grid{
      grid-template-columns: repeat(2, 1fr);
+     
       }
   }
   @media (max-width: 768px) {
     .grid{
       grid-template-columns: repeat(1, 1fr);
+      transform: scale(0.7);
+        transform-origin: center left;
        }
       }
    
